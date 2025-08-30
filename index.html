@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="images/logo.png" alt="">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#how-it-works">How it works</a></li>
+                <li><a href="#case-studies">Case studies</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#guarantee">Gaurantee</a></li>
+            </ul>
+            <button><a href="#book">Book a Call</a></button>
+            <svg onclick=showSidebar() xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960"
+                width="26px" fill="black">
+                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+            </svg>
+        </nav>
+        <ul class="sidebar">
+            <li><a href="#" onclick=hideSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="26px"
+                        viewBox="0 -960 960 960" width="26px" fill="black">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#how-it-works">How it Works</a></li>
+            <li><a href="#case-studies">Case studies</a></li>
+            <li><a href="#benefits">Benefits</a></li>
+            <li><a href="#guarantee">Guarantee</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section id="home" class="hero ">
+            <div class="hero-text">
+                <h1>Done-For-You <span>Sales Engine</span>
+                    That Brings <span>10</span> Ready-to-Visit Buyers in <span>30
+                        Days</span> (Or We Work for <span>Free</span> Until You Do).</h1>
+                <p>Stop chasing renters and cold leads. Get verified buyers ready to visit your listings this month.</p>
+                <button>Book a Free Strategy Call</button>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="section-padding section-flex section-1">
+            <div class="section-text ">
+                <h2>The <span>Problem?</span></h2>
+                <p>Are you tired of high CAC, wasted ad spend, and endless unqualified leads? You’re not alone. Most
+                    real
+                    estate agencies face one or more of these issues:</p>
+                <ul>
+                    <li>High marketing spend but low-quality leads.</li>
+                    <li>Agents wasting hours chasing renters or browsers.</li>
+                    <li>No predictable system to generate site visits.</li>
+                    <li>Zero clarity on which campaigns actually deliver ROI.</li>
+                </ul>
+            </div>
+
+            <div class="section-img d-center">
+                <img src="images/sec-1.png" alt="">
+            </div>
+        </section>
+
+        <section class="section-padding section-2">
+            <div class="section-text">
+                <h2>The <span>Solution</span></h2>
+                <div class="center-text">
+                    <p>Our Done-For-You Sales Engine solves all of this. We don’t just run ads, we build your entire
+                        sales
+                        pipeline:</p>
+                    <div class="w-100 solution-icons">
+                        <div class="flex-col">
+                            <div class="items">
+                                <div class="icon d-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                                        <path
+                                            d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                                    </svg>
+                                </div>
+                                <p>High targeted ads compaign</p>
+                            </div>
+                            <div class="items">
+                                <div class="icon d-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                                        <path
+                                            d="M320-160h320v-120q0-66-47-113t-113-47q-66 0-113 47t-47 113v120Zm160-360q66 0 113-47t47-113v-120H320v120q0 66 47 113t113 47ZM160-80v-80h80v-120q0-61 28.5-114.5T348-480q-51-32-79.5-85.5T240-680v-120h-80v-80h640v80h-80v120q0 61-28.5 114.5T612-480q51 32 79.5 85.5T720-280v120h80v80H160Zm320-80Zm0-640Z" />
+                                    </svg>
+                                </div>
+                                <p>Atomated lead filtering</p>
+                            </div>
+                        </div>
+                        <div class="flex-col">
+                            <div class="items">
+                                <div class="icon d-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                                        <path
+                                            d="M234-276q51-39 114-61.5T480-360q69 0 132 22.5T726-276q35-41 54.5-93T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 59 19.5 111t54.5 93Zm246-164q-59 0-99.5-40.5T340-580q0-59 40.5-99.5T480-720q59 0 99.5 40.5T620-580q0 59-40.5 99.5T480-440Zm0 360q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q53 0 100-15.5t86-44.5q-39-29-86-44.5T480-280q-53 0-100 15.5T294-220q39 29 86 44.5T480-160Zm0-360q26 0 43-17t17-43q0-26-17-43t-43-17q-26 0-43 17t-17 43q0 26 17 43t43 17Zm0-60Zm0 360Z" />
+                                    </svg>
+                                </div>
+                                <p>Only verfied used buyers.</p>
+                            </div>
+                            <div class="items">
+                                <div class="icon d-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                                        <path
+                                            d="M320-120q-33 0-56.5-23.5T240-200v-560q0-33 23.5-56.5T320-840h320q33 0 56.5 23.5T720-760v560q0 33-23.5 56.5T640-120H320Zm320-80v-560H320v560h320ZM480-640q17 0 28.5-11.5T520-680q0-17-11.5-28.5T480-720q-17 0-28.5 11.5T440-680q0 17 11.5 28.5T480-640ZM0-280v-280h80v280H0Zm120-120v-280h80v280h-80Zm760 0v-280h80v280h-80ZM760-280v-280h80v280h-80Zm-440 80v-560 560Z" />
+                                    </svg>
+                                </div>
+                                <p>Monthly report to track performance</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="benefits" class="section-padding section-3">
+            <h2>What You <span>Get?</span></h2>
+            <div class="section-flex section-padding">
+                <div class="section-img d-center">
+                    <img src="images/support-sec.png" alt="">
+                </div>
+                <div class="section-text d-center">
+                    <ul>
+                        <li>30-day ad campaigns tailored to your listings.</li>
+                        <li>Lead qualification system.</li>
+                        <li>10+ site-ready buyers in the first 30 days (momentum builds after).</li>
+                        <li>Done-for-you setup: landing pages, ad creatives, copy.</li>
+                        <li>Ongoing optimization for lower CAC and higher ROI.</li>
+                        <li>Dedicated account manager + reporting.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="guarantee" class="section-padding section-4">
+            <h2>Why <span> Choose Us?</span></h2>
+            <div class="section-flex">
+                <div class="section-text ">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate magnam accusantium unde dolor
+                        vero nesciunt, modi repudiandae dolorum
+                        beatae suscipit velit tenetur <span> saepe eum qui repellat </span> voluptatibus magni
+                        laudantium debitis.</p>
+                    <button>Book afree strategy call</button>
+                </div>
+                <div class="section-img">
+                    <img src="images/choose-sec.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="case-studies" class="section-padding">
+            <h2>Case Studies</h2>
+            <div class="case-study">
+                <div class="cards"><span>"</span>
+                    <p>Helped a dubai based agency reduced cac by 70% in 60 days </p>
+                </div>
+                <div class="cards"><span>"</span>
+                    <p>Delivered 27 sites ready buyes in one months for aluxurry project</p>
+                </div>
+                <div class="cards"><span>"</span>
+                    <p>Generated 10 verified buyers in 30 days</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding section-6">
+            <div id="book" class="subscribe">
+                <p>Lorem ipsum,
+                    beatae suscipit velit tenetur <span> saepe eum qui repellat </span> voluptatibus magni
+                    laudantium debitis.</p>
+                <button><a href="#home">Book My First Strategy Call</a></button>
+            </div>
+        </section>
+    </main>
+    <footer class="section-padding">
+        <div class="contact d-center">
+            <p>Call : 0305-3010428 </p>
+        </div>
+        <div class="wrapper">
+            <div class="logo-icon icon1"><a target="_blank" href="https://github.com/muneeb786-byte"><i
+                        class="fa-brands fa-github"></i></a></div>
+            <div class="logo-icon icon2"><a target="_blank"
+                    href="https://www.linkedin.com/in/muneeb-rehman-3aa98a27a/"><i
+                        class="fa-brands fa-linkedin-in"></i></a></div>
+            <div class="logo-icon icon3"><a target="_blank"
+                    href="https://www.instagram.com/mr_art_developer?igsh=MTU2ZGYyd2lqODduZg=="><i
+                        class="fa-brands fa-instagram"></i></a></div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
